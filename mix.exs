@@ -18,7 +18,8 @@ defmodule WeeklyTrello.MixProject do
         api_key: System.get_env("TRELLO_API_KEY"),
         api_token: System.get_env("TRELLO_API_TOKEN"),
         board_list_id: System.get_env("TRELLO_BOARD_LIST_ID"),
-        replace_tokens: ["current_week"]
+        replace_tokens: ["current_week"],
+        opts: [deadline_week: "0"]
       ]
     ]
   end
