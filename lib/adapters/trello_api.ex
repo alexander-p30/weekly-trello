@@ -8,7 +8,12 @@ defmodule WeeklyTrello.Adapters.TrelloApi do
   def create_cards(%{} = card_params), do: Enum.map([card_params], &create_card/1)
 
   def create_card(card_params) do
-    post("", card_params, query: [key: trello_api_key(), token: trello_api_token()])
+    ""
+    |> post(card_params, query: [key: trello_api_key(), token: trello_api_token()])
+    |> then(fn
+      {:ok, _} -> IO.write("\x1b[32m.\x1b[0m")
+      {:error, _} -> IO.write("\x1b[31mx\x1b[0m")
+    end)
   end
 
   defp trello_api_key(), do: Application.get_env(:weekly_trello, :api_key)
