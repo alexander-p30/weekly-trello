@@ -1,54 +1,60 @@
 [
   {
-    "name": "Semana $current_week - OAC - Aula 1",
+    "name": "Semana $current_week - ES - Aula 1",
+    "desc": "",
+    "due": "friday",
+    "idLabels": ["5f3ee5a0cdabcf46c0f7130a", "5f3ee6fe58c7b171683c703f"]
+  },
+  {
+    "name": "Semana $current_week - ES - Aula 2",
+    "desc": "",
+    "due": "friday",
+    "idLabels": ["5f3ee5a0cdabcf46c0f7130a", "5f3ee6fe58c7b171683c703f"]
+  },
+  {
+    "name": "Semana $current_week - SISMIC - Aula 1",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - OAC - Aula 2",
+    "name": "Semana $current_week - SISMIC - Aula 2",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - LP - Aula 1",
+    "name": "Semana $current_week - PAA - Aula 1",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - LP - Aula 2",
+    "name": "Semana $current_week - PAA - Aula 2",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - ELE - Aula 1",
+    "name": "Semana $current_week - SB - Aula 1",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - ELE - Aula 2",
+    "name": "Semana $current_week - SB - Aula 2",
     "desc": "",
     "due": "friday",
     "idLabels": ["5f3ee5a0cdabcf46c0f71306"]
   },
   {
-    "name": "Semana $current_week - TR2 - Questionário",
+    "name": "Semana $current_week - PC - Atividade",
     "desc": "",
     "due": "sunday",
     "idLabels": ["5f3ee5a0cdabcf46c0f7130a", "5f3ee6fe58c7b171683c703f"]
   },
   {
-    "name": "Semana $current_week - LabELE - Relatório",
-    "desc": "",
-    "due": "sunday",
-    "idLabels": ["5f3ee5a0cdabcf46c0f7130a", "5f3ee6fe58c7b171683c703f"]
-  },
-  {
-    "name": "Semana $current_week - ANE - Atividade",
+    "name": "Semana $current_week - LabSISMIC - Atividade",
     "desc": "",
     "due": "sunday",
     "idLabels": ["5f3ee5a0cdabcf46c0f7130a", "5f3ee6fe58c7b171683c703f"]
